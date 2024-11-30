@@ -406,9 +406,7 @@ if __name__ == '__main__': # メイン処理 --- (*4)
             st.write("--------------------")
             st.write(f"start_time={start_time:.1f}s end_time={end_time:.1f}s")
             st.write("download_wav...")
-            # audio_file = download_wav(video_url, start_time, end_time, i)
-            audio_file = "総裁定例記者会見（2024年10月31日）_1.wav"
-
+            audio_file = download_wav(video_url, start_time, end_time, i)
 
             if diarization:
                 st.write("話者分離")
